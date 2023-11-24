@@ -1,0 +1,4 @@
+actions['take oo1'] not working - around 1:14:00 (plane.jsx)
+
+things to fix:
+moving with arrows keys now working: 
