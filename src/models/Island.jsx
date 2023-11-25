@@ -11,7 +11,7 @@ import { a } from "@react-spring/three";
 
 import islandScene from "../assets/3d/island.glb";
 
-const Island = ({ isRotating, setIsRotating, ...props}) => {
+const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
   const islandRef = useRef();
 
   const { gl, viewport } = useThree();
@@ -36,6 +36,7 @@ const Island = ({ isRotating, setIsRotating, ...props}) => {
   const handleMouseUp = (e) => {
     e.stopPropagation();
     e.preventDefault();
+    console.log('mouse up');
     setIsRotating(false);
   }
 
