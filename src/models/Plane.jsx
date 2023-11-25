@@ -8,7 +8,6 @@ export default function Plane({isRotating, ...props}) {
     const {actions} = useAnimations(animations, ref);
 
     useEffect(() => {
-        //console.log(actions['Take 001']);
         if(isRotating){
             actions['Take 001'].play();
         }else{

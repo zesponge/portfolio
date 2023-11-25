@@ -36,7 +36,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props}) => {
   const handleMouseUp = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    console.log('mouse up');
+    //console.log('mouse up');
     setIsRotating(false);
   }
 
