@@ -2,8 +2,8 @@ import React from 'react'
 import { Canvas } from '@react-three/fiber'
 import { Suspense, useState } from 'react'
 import Loader from '../components/Loader'
-import Island from "../models/island.jsx"
-import Sky from "../models/sky.jsx"
+import Island from "../models/Island.jsx"
+import Sky from "../models/Sky.jsx"
 import Bird from "../models/Bird.jsx";
 import Plane from "../models/Plane.jsx"
 import HomeInfo from '../components/HomeInfo.jsx'
