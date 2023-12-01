@@ -6,3 +6,5 @@ put contact page on the nav bar as well
 put.env.local final
 
 left off 2:08:38
+
+fix alerts
