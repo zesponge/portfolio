@@ -6,3 +6,5 @@ put contact page on the nav bar as well
 left off 2:08:38
 
 .env.local files have to be put into repo whenever cloned
+
+notes brach test
