@@ -1,14 +1,14 @@
 import React from 'react'
 import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
-import useAlert from '../hooks/useAlert.js'
+import useAlert from "../hooks/useAlert";
 import Alert from '../components/Alert.jsx'
 
 const Contact = () => {
   const formRef = useRef(null)
   const [form, setForm] = useState({ name: '', email: "", message: ""})
   const [isLoading, setIsLoading] = useState(false)
-  const [alert, showAlert, hideAlert] = useAlert();
+  const {alert, showAlert, hideAlert} = useAlert();
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
