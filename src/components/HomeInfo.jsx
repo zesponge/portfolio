@@ -16,6 +16,8 @@ const renderContent = {
             Hi, I'm <span className='font-semibold'>Mario</span>! 👋
             <br />
             A computer science student at the University of Waterloo.
+            <br />
+            <span className='font-semibold'>Scroll Around the Island to Learn More!</span>
         </h1>
     ),
     2: (
