@@ -26,6 +26,8 @@ const About = () => {
                 alt={skill.name}
                 className='w-1/2 h-1/2 object-contain'
               />
+              <p>{skill.name}</p>
+              {/* style this nicely */}
             </div>
           </div>
         ))}
