@@ -11,22 +11,61 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
     mui,
-    nextjs,
     nodejs,
     pricewise,
     react,
-    redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    java,
+    python,
+    googleCloud,
+    vscode,
+    cplus,
+    c,
+    sql,
+    post
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: post,
+        name: "Postgre SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: c,
+        name: "C",
+        type: "Backend",
+    },
+    {
+        imageUrl: cplus,
+        name: "C++",
+        type: "Backend",
+    },
+    {
+        imageUrl: googleCloud,
+        name: "Google Cloud",
+        type: "Backend",
+    },
+    {
+        imageUrl: python,
+        name: "Python",
+        type: "Backend",
+    },
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },
     {
         imageUrl: css,
         name: "CSS",
@@ -63,18 +102,8 @@ export const skills = [
         type: "Database",
     },
     {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
         imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
+        name: "MaterialUI",
         type: "Frontend",
     },
     {
@@ -88,16 +117,6 @@ export const skills = [
         type: "Frontend",
     },
     {
-        imageUrl: redux,
-        name: "Redux",
-        type: "State Management",
-    },
-    {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
-    },
-    {
         imageUrl: tailwindcss,
         name: "Tailwind CSS",
         type: "Frontend",
@@ -106,6 +125,11 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
+    },
+    {
+        imageUrl: vscode,
+        name: "VS Code",
+        type: "IDE",
     }
 ];
 
