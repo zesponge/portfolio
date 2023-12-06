@@ -26,6 +26,14 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import java from './java.svg'
+import python from './python.svg'
+import googleCloud from './googleCloud.svg'
+import vscode from './vscode.svg'
+import cplus from './cplus.svg'
+import c from './c.svg'
+import sql from './sql.svg'
+import post from './post.svg'
 
 export {
     css,
@@ -55,5 +63,13 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    java,
+    python,
+    googleCloud,
+    vscode,
+    cplus,
+    c,
+    sql,
+    post
 }
