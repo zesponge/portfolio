@@ -82,7 +82,7 @@ const About = () => {
                   {experience.points.map((point, index) => (
                     <li
                       key={`experience-point-${index}`}
-                      className='text-black-500/50 font-normal pl-1 text-sm'
+                      className='text-black-500/90 font-normal pl-1 text-sm'
                     >
                       {point}
                     </li>

@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import {LAVA, mdt, rogers,eon } from "../assets/images";
 import {
     car,
     contact,
@@ -137,7 +137,7 @@ export const experiences = [
     {
         title: "Full Stack Engineer",
         company_name: "Eon Media Corp",
-        icon: starbucks,
+        icon: eon,
         iconBg: "#accbe1",
         date: "Sept 2023 - Oct 2023",
         points: [
@@ -150,8 +150,8 @@ export const experiences = [
     {
         title: "Cloud Developer",
         company_name: "Mobile Data Technologies",
-        icon: tesla,
-        iconBg: "#fbc3bc",
+        icon: mdt,
+        iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
             "Engineered a Google Cloud-based platform to view, edit, and manage oil fracking equipment using Java and React, optimizing the fleet management process by 75%.",
@@ -162,8 +162,8 @@ export const experiences = [
     {
         title: "Developer",
         company_name: "Rogers Communications Inc. - University of Waterloo",
-        icon: shopify,
-        iconBg: "#b7e4c7",
+        icon: rogers,
+        iconBg: "#ffcccb",
         date: "Jan 2022 - Apr 2022",
         points: [
             "Led the design and development of a React-based interface to remotely run a 5G benchmarking tool and display resulting data.",
@@ -174,8 +174,8 @@ export const experiences = [
     {
         title: "Webpage Developer",
         company_name: "LAVA Computers MFG Inc.",
-        icon: meta,
-        iconBg: "#a2d2ff",
+        icon: LAVA,
+        iconBg: "#ffdcd1",
         date: "May 2021 - Aug 2021",
         points: [
             "Developed responsive web pages to display real-time data read in from external IoT devices and control loading dock door systems using HTML, CSS, and JavaScript.",

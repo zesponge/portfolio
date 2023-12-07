@@ -6,4 +6,3 @@ moving with arrows keys not working:
 fix styling on skills icons
 
 finish eon media descp
-
