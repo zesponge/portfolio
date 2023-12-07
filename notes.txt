@@ -8,3 +8,5 @@ fix styling on skills icons
 finish eon media descp
 
 maybe add something to contact page
+
+put own projects in
