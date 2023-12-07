@@ -17,26 +17,26 @@ const renderContent = {
             <br />
             A computer science student at the University of Waterloo.
             <br />
-            <span className='font-semibold'>Scroll Around the Island to Learn More!</span>
+            <span className='font-semibold'>Scroll Around and Explore the Island to Learn More About Me!</span>
         </h1>
     ),
     2: (
         <InfoBox 
-            text={"about section placeholder text"}
+            text={"Learn about my experience and skills!"}
             link='/About'
             btnText='Learn More'
             />
     ),
     3: (
         <InfoBox 
-            text={"projects section placeholder text"}
+            text={"Take a look at the projects I've worked on!"}
             link='/Projects'
             btnText='Visit Portfolio'
             />
     ),
     4: (
         <InfoBox 
-            text={"contact section placeholder text"}
+            text={"Reach out to me and connect!"}
             link='/Contact'
             btnText="Let's Connect"
             />
