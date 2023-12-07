@@ -32,14 +32,14 @@ import {
 
 export const skills = [
     {
-        imageUrl: post,
-        name: "Postgre SQL",
-        type: "Database",
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
     },
     {
-        imageUrl: sql,
-        name: "SQL",
-        type: "Database",
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
     },
     {
         imageUrl: c,
@@ -52,29 +52,69 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: googleCloud,
-        name: "Google Cloud",
-        type: "Backend",
-    },
-    {
         imageUrl: python,
         name: "Python",
         type: "Backend",
     },
     {
-        imageUrl: java,
-        name: "Java",
-        type: "Backend",
+        imageUrl: typescript,
+        name: "TypeScript",
+        type: "Frontend",
     },
     {
-        imageUrl: css,
-        name: "CSS",
+        imageUrl: react,
+        name: "React",
         type: "Frontend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
     },
     {
         imageUrl: express,
         name: "Express",
         type: "Backend",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
+    },
+    {
+        imageUrl: sql,
+        name: "SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: post,
+        name: "Postgre SQL",
+        type: "Database",
+    },
+    {
+        imageUrl: googleCloud,
+        name: "Google Cloud",
+        type: "Backend",
+    },
+    {
+        imageUrl: mui,
+        name: "MaterialUI",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
+    {
+        imageUrl: css,
+        name: "CSS",
+        type: "Frontend",
     },
     {
         imageUrl: git,
@@ -85,46 +125,6 @@ export const skills = [
         imageUrl: github,
         name: "GitHub",
         type: "Version Control",
-    },
-    {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: mui,
-        name: "MaterialUI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
     },
     {
         imageUrl: vscode,
