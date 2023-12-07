@@ -10,3 +10,5 @@ finish eon media descp
 maybe add something to contact page
 
 put own projects in
+
+bolden key words in experience section
