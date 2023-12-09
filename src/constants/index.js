@@ -1,9 +1,7 @@
 import {LAVA, mdt, rogers,eon } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
@@ -13,12 +11,8 @@ import {
     mongodb,
     mui,
     nodejs,
-    pricewise,
     react,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
     typescript,
     java,
     python,
@@ -27,7 +21,12 @@ import {
     cplus,
     c,
     sql,
-    post
+    post,
+    game1,
+    game2,
+    house,
+    money,
+    dash,
 } from "../assets/icons";
 
 export const skills = [
@@ -204,7 +203,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: threads,
+        iconUrl: game2,
         theme: 'btn-back-green',
         name: 'Straights',
         description: 'Developed a C++ program that simulates the card game Straights. The game can be played against a computer or human player. The game is played over multiple rounds, and the goal of the game is to have the highest score at the end of the game.',
@@ -215,7 +214,7 @@ export const projects = [
         avail: false,
     },
     {
-        iconUrl: car,
+        iconUrl: house,
         theme: 'btn-back-blue',
         name: 'Housing Buddy',
         description: 'Designed and built a web application that serves as a platform to streamline the housing search process for students. Leverages the the google maps api to display housing options on a map and allows users to view user-submitted reviews. Created by a group of three developers',
@@ -227,7 +226,7 @@ export const projects = [
 
     },
     {
-        iconUrl: snapgram,
+        iconUrl: game1,
         theme: 'btn-back-pink',
         name: 'Legends of the Math Ghost',
         description: 'Created a top-down interactive game involving defeating monsters using your math skills. The game had varyling levels of difficulty and was created for educational purposes. Created by a group of three developers.',
@@ -239,7 +238,7 @@ export const projects = [
 
     },
     {
-        iconUrl: estate,
+        iconUrl: money,
         theme: 'btn-back-black',
         name: 'Time Is Money',
         description: 'Developed a web application to record, manage, and visualize personal and financial goals. Collaborated with two team members',
@@ -251,7 +250,7 @@ export const projects = [
 
     },
     {
-        iconUrl: summiz,
+        iconUrl: dash,
         theme: 'btn-back-yellow',
         name: 'My Hub',
         description: 'Built an interactive web application that allows users to create a personalized dashboard linked to their learning, professional, and recreational plaforms. Built for the NewHacks Hackathon with two other team members.',

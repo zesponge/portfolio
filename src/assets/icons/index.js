@@ -16,12 +16,8 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import car from './car.svg'
 import estate from './estate.svg'
 import pricewise from './pricewise.svg'
-import snapgram from './snapgram.svg'
-import summiz from './summiz.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
@@ -34,8 +30,16 @@ import cplus from './cplus.svg'
 import c from './c.svg'
 import sql from './sql.svg'
 import post from './post.svg'
+import game1 from './game1.svg'
+import game2 from './game2.svg'
+import house from './house.svg'
+import money from './money.svg'
+import dash from './dash.png'
 
 export {
+    dash,
+    money,
+    house,
     css,
     express,
     git,
@@ -54,12 +58,8 @@ export {
     typescript,
     linkedin,
     twitter,
-    car,
     estate,
     pricewise,
-    snapgram,
-    summiz,
-    threads,
     arrow,
     contact,
     soundon,
@@ -71,5 +71,7 @@ export {
     cplus,
     c,
     sql,
-    post
+    post,
+    game1,
+    game2
 }
