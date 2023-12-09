@@ -1,8 +1,6 @@
 things to fix:
 moving with arrows keys not working:
 
-fix styling on skills icons
-
 finish eon media descp
 
 maybe add something to contact page

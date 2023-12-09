@@ -4,7 +4,7 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA'
 
-const About = () => {
+const Experience = () => {
   return (
     <section className='max-container'>
       <h1 className='head-text'>
@@ -105,4 +105,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Experience
