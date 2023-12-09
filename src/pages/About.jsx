@@ -19,17 +19,17 @@ const About = () => {
 
     <div className='py-10 flex flex-col'>
       <h3 className='subhead-text'>My Skills</h3>
-      <div className='mt-16 flex flex-wrap gap-12'>
+      <div className='mt-16 flex flex-wrap gap-6'>
         {skills.map((skill) =>(
-          <div className='flex flex-col justify-center items-center block-container w-20 h-20'>
+          <div className='flex flex-col justify-center items-center block-container w-16 h-16'>
             <div className='btn-back rounded-xl'/>
-            <div className='btn-front rounded-xl flex justify-center items-center flex-col'>
+            <div className='btn-front rounded-xl flex justify-center items-center flex-col text-center'>
               <img
                 src={skill.imageUrl}
                 alt={skill.name}
                 className='w-1/2 h-1/2 object-contain'
               />
-              <p className='flex flex-wrap justify-center items-center'>{skill.name}</p>
+              <p className='text-xs'>{skill.name}</p>
             </div>
           </div>
         ))}
