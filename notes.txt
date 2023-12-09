@@ -1,14 +1,10 @@
 things to fix:
 moving with arrows keys not working:
 
-.env.local files have to be put into repo whenever cloned
-
 fix styling on skills icons
 
 finish eon media descp
 
 maybe add something to contact page
 
-put own projects in
-
-bolden key words in experience section
+updates mdt bullets on actual resume
