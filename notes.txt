@@ -1,7 +1,5 @@
 things to implement/fix:
-moving with arrows keys
-
-maybe an intro screen above the island
+intro screen above the island
 
 finish eon media descp
 
