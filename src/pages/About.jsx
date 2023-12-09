@@ -78,6 +78,9 @@ const About = () => {
                     {experience.company_name}
                   </p>
                 </div>
+                <div>
+                  <p>{experience.tech}</p>
+                </div>
 
                 <ul className='my-5 list-disc ml-5 space-y-2'>
                   {experience.points.map((point, index) => (

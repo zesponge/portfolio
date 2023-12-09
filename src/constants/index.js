@@ -145,6 +145,7 @@ export const experiences = [
             "lebron james",
             "lebron james",
         ],
+        tech: "React, Typescript, MongoDB, Node.js",
     },
     {
         title: "Cloud Developer",
@@ -157,6 +158,7 @@ export const experiences = [
             "Implemented Java backend service to process and visualize mining sensor data pulled from the PostgreSQL database.",
             "Leveraged microservice architecture to implement text message alert notification system."
         ],
+        tech: "Java, React, Goolgle Cloud, PostgreSQL",
     },
     {
         title: "Developer",
@@ -169,6 +171,7 @@ export const experiences = [
             "Implemented JavaScript algorithms that make customizable API calls to start benchmarking process, creating a 40% speed up in benchmark turnaround time.",
             "Designed reusable React components to digest and visualize result data using Recharts",
         ],
+        tech: "React, Javascript, MaterialUI, APIs",
     },
     {
         title: "Webpage Developer",
@@ -180,6 +183,7 @@ export const experiences = [
             "Developed responsive web pages to display real-time data read in from external IoT devices and control loading dock door systems using HTML, CSS, and JavaScript.",
             "Designed and wrote BASIC scripts to pipeline data from LAVA proprietary IoT devices to a web interface.",
         ],
+        tech: "Javascript, HTML, CSS, BASIC",
     },
 ];
 
