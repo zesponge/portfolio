@@ -13,7 +13,7 @@ const Experience = () => {
 
     <div className='mt-1 flex flex-col gap-3 text-slate-500'>
       <p>
-        Computer science student at the University of Waterloo, specializing in web development and software engineering.
+        A computer science student at the University of Waterloo, specializing in web development and software engineering.
       </p>
     </div>
 
