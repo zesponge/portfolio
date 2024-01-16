@@ -35,6 +35,7 @@ import game2 from './game2.svg'
 import house from './house.svg'
 import money from './money.svg'
 import dash from './dash.png'
+import ML from './ML.png'
 
 export {
     dash,
@@ -73,5 +74,6 @@ export {
     sql,
     post,
     game1,
-    game2
+    game2,
+    ML,
 }

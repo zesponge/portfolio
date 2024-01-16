@@ -27,6 +27,7 @@ import {
     house,
     money,
     dash,
+    ML,
 } from "../assets/icons";
 
 export const skills = [
@@ -205,6 +206,18 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: ML,
+        theme: "btn-back-pink",
+        name: "SummarAIzeBot",
+        description: "Implemented a web application that analyzes videos and generates a summary of the video using machine learning and natural language processing.",
+        tech: "OpenAI API, React, Node.js, Express, MongoDB",
+        link: '',
+        live: false,
+        repo: "",
+        avail: false,
+
+    },
+    {
         iconUrl: game2,
         theme: 'btn-back-green',
         name: 'Straights',
@@ -229,7 +242,7 @@ export const projects = [
     },
     {
         iconUrl: game1,
-        theme: 'btn-back-pink',
+        theme: 'btn-back-red',
         name: 'Legends of the Math Ghost',
         description: 'Created a top-down interactive game involving defeating monsters using your math skills. The game had varyling levels of difficulty and was created for educational purposes. Created by a group of three developers.',
         link: '',
