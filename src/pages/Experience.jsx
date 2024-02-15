@@ -17,7 +17,7 @@ const Experience = () => {
 
           <div className='mt-1 flex flex-col gap-3 text-slate-1000'>
             <p className='mb-5'>
-              I'm a developer with a passion for building things, working with others, and learning new things!
+              I'm a developer with a passion for building software, working with others, and learning new things!
             </p>
 
           <div className='flex gap-8 items-center'>
