@@ -1,12 +1,11 @@
 things to implement/fix:
 intro screen above the island
 
-finish eon media descp
-
-maybe add something to contact page
-
-updates mdt bullets on actual resume
-
 to deploy:
 
 npm run deploy
+
+to run: 
+
+npm i
+npm run vite?
