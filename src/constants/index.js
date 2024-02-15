@@ -28,7 +28,9 @@ import {
     money,
     dash,
     ML,
-    video
+    video,
+    flask,
+    pandas
 } from "../assets/icons";
 
 export const skills = [
@@ -131,6 +133,16 @@ export const skills = [
         imageUrl: vscode,
         name: "VS Code",
         type: "IDE",
+    },
+    {
+        imageUrl: flask,
+        name: "Flask",
+        type: "Backend",
+    },
+    {
+        imageUrl: pandas,
+        name: "Pandas",
+        type: "Data Analysis",
     }
 ];
 

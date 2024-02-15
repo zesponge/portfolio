@@ -37,6 +37,8 @@ import money from './money.svg'
 import dash from './dash.png'
 import ML from './ML.png'
 import video from './video.png'
+import pandas from './pandas.png'
+import flask from './flask.png'
 
 export {
     video,
@@ -78,4 +80,6 @@ export {
     game1,
     game2,
     ML,
+    flask,
+    pandas
 }
