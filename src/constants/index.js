@@ -28,6 +28,7 @@ import {
     money,
     dash,
     ML,
+    Video
 } from "../assets/icons";
 
 export const skills = [
@@ -206,11 +207,23 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: Video,
+        theme: "btn-back-orange",
+        name: "ScrobbleSearch",
+        description: "Developed an application that allows users to semantically search through video content for clips that match simple queries using machine learning and video intelligence.",
+        tech: "Flask, Google Cloud, ML, React, APIs, Pandas",
+        link: '',
+        live: false,
+        repo: "",
+        avail: false,
+
+    },
+    {
         iconUrl: ML,
         theme: "btn-back-pink",
         name: "SummarAIzeBot",
         description: "Implemented a web application that analyzes videos and generates a summary of the video using machine learning and natural language processing.",
-        tech: "OpenAI API, React, Node.js, Express, MongoDB",
+        tech: "OpenAI API, ML, React, Node.js, Express, MongoDB",
         link: '',
         live: false,
         repo: "",

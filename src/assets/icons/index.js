@@ -36,8 +36,10 @@ import house from './house.svg'
 import money from './money.svg'
 import dash from './dash.png'
 import ML from './ML.png'
+import Video from './Video.png'
 
 export {
+    Video,
     dash,
     money,
     house,
