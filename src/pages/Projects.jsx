@@ -10,7 +10,7 @@ const Projects = () => {
         My <span className='blue-gradient_text drop-shadow font-semibold'>Projects</span>
       </h1>
 
-      <p className='text-slate-500 mt-2 leading-relaxed'>
+      <p className='text-slate-1000 mt-2 leading-relaxed'>
         These are some of the projects I've worked on: 
       </p>
 

@@ -3,23 +3,42 @@ import { skills, experiences } from '../constants'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import CTA from '../components/CTA'
+import {head, cat, full, linkedin, github} from '../assets/images'
+import { git } from '../assets/icons';
 
 const Experience = () => {
   return (
     <section className='max-container'>
-      <h1 className='head-text'>
-        Hi, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Mario</span>
-      </h1>
+      <div className='py-5 flex justify-between items-center'>
+        <div className='w-3/5'>
+          <h1 className='head-text'>
+            Hi, I'm <span className='blue-gradient_text font-semibold drop-shadow'>Mario</span>
+          </h1>
 
-    <div className='mt-1 flex flex-col gap-3 text-slate-500'>
-      <p>
-        A computer science student at the University of Waterloo, specializing in web development and software engineering.
-      </p>
-    </div>
+          <div className='mt-1 flex flex-col gap-3 text-slate-1000'>
+            <p className='mb-5'>
+              I'm a developer with a passion for building things, working with others, and learning new things!
+            </p>
 
-    <div className='py-10 flex flex-col'>
+          <div className='flex gap-8 items-center'>
+            <h3 className='subhead-text'>About Me</h3>
+            <div className='flex gap-8'>
+              <a href="https://www.linkedin.com/in/mario-su/"><img src={linkedin} alt="" className='h-8 hover:bg-sky-200'/></a>
+              <a href="https://github.com/zesponge"><img src={github} alt="" className='h-8 hover:bg-sky-200'/></a>
+            </div>
+          </div>
+            <p>
+              I'm a Computer Science student at the University of Waterloo. I've worked with all sorts of companies, developing my skills and collaborating with others. Here's the rundown:
+            </p>
+          </div>
+
+        </div>
+          <img src={head} alt="" className='rounded-full h-1/2 w-2/5'/>
+      </div>
+
+    <div className='py-5 flex flex-col'>
       <h3 className='subhead-text'>My Skills</h3>
-      <div className='mt-16 flex flex-wrap gap-6'>
+      <div className='mt-12 flex flex-wrap gap-6'>
         {skills.map((skill) =>(
           <div className='flex flex-col justify-center items-center block-container w-16 h-16'>
             <div className='btn-back rounded-xl'/>
@@ -36,15 +55,15 @@ const Experience = () => {
       </div>
     </div>
 
-    <div className='py-16'>
+    <div className='py-5'>
       <h3 className='subhead-text'>Experience</h3>
-      <div className='mt-1 flex flex-col gap-3 text-slate-500'>
+      <div className='mt-1 flex flex-col gap-3 text-slate-1000'>
         <p>
           I've worked with all sorts of companies, developing my skills and collaborating with others. Here's the rundown:
         </p>
       </div>
 
-      <div className='mt-12 flex'>
+      <div className='mt-6 flex'>
           <VerticalTimeline>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement

@@ -15,7 +15,7 @@ const renderContent = {
         <h1 className='sm::text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
             Hi, I'm <span className='font-semibold'>Mario</span>! 👋
             <br />
-            A computer science student at the University of Waterloo.
+            A developer studying computer science at the University of Waterloo.
             <br />
             <span className='font-semibold'>Scroll Around and Explore the Island to Learn More About Me!</span>
         </h1>
