@@ -28,7 +28,7 @@ import {
     money,
     dash,
     ML,
-    Video
+    video
 } from "../assets/icons";
 
 export const skills = [
@@ -207,7 +207,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: Video,
+        iconUrl: video,
         theme: "btn-back-orange",
         name: "ScrobbleSearch",
         description: "Developed an application that allows users to semantically search through video content for clips that match simple queries using machine learning and video intelligence.",
