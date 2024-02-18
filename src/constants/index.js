@@ -233,13 +233,13 @@ export const projects = [
     {
         iconUrl: ML,
         theme: "btn-back-pink",
-        name: "SummarAIzeBot",
+        name: "SummarAIzer",
         description: "Implemented a web application that analyzes videos and generates a summary of the video using machine learning and natural language processing.",
         tech: "OpenAI API, ML, React, Node.js, Express, MongoDB",
         link: '',
         live: false,
-        repo: "",
-        avail: false,
+        repo: "https://github.com/zesponge/summarAIzer",
+        avail: true,
 
     },
     {
