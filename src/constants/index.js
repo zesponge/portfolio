@@ -155,7 +155,7 @@ export const experiences = [
         date: "Sept 2023 - Oct 2023",
         points: [
             "Developed an operational e-commerce storefront, featuring robust payment processing and order management functionality using React, TypeScript, MongoDB, and the Stripe API.",
-            "Designed and implemented APIs to facilitate front-end and MongoDB communication."
+            "Designed and built API endpoints and database architecture to facilitate end-to-end communication."
         ],
         tech: "React, Typescript, MongoDB, Node.js",
     },
@@ -166,9 +166,9 @@ export const experiences = [
         iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
-            "Created a Google Cloud powered portal display that displays data, enables configuration edits, and allows for equipment management of oil fracking equipment, optimizing fleet management by 50%, using Java and React.",
-            "Implemented a Java backend service to process and visualize real time mining sensor data from the cloud PostgreSQL database.",
-            "Leveraged microservice architecture to implement oil fracking sensor alert text message notification system."
+            "Created a Google Cloud powered portal display that displays data, enables configuration edits, and allows for equipment management of oil fracking equipment, optimizing fleet management by 30%, using Java and React.",
+            "Implemented a Java backend service to process and visualize real-time mining sensor data queried from the cloud PostgreSQL database.",
+            "Leveraged microservice architecture to implement an oil fracking sensor alert text message notification system."
         ],
         tech: "Java, React, Goolgle Cloud, PostgreSQL",
     },
@@ -179,8 +179,8 @@ export const experiences = [
         iconBg: "#ffcccb",
         date: "Jan 2022 - Apr 2022",
         points: [
-            "Spearheaded the design and development of a React-based interface to remotely operate a 5G benchmarking tool and display resulting data, improving the benchmark turnaround time by 40%.",
-            "Implemented JavaScript functions that enable and facilitate customizable REST API calls to handle benchmarking in a wide variety of configurations.",
+            "Spearheaded the design and development of a React-based interface to remotely operate a 5G benchmarking tool and display resulting data, improving the benchmark turnaround time by 25%.",
+            "Implemented JavaScript functions that facilitate customizable REST API calls to handle benchmarking in a wide variety of configurations.",
             "Built versatile and reusable React components to digest and visualize test result data using Recharts.",
         ],
         tech: "React, Javascript, MaterialUI, APIs",
