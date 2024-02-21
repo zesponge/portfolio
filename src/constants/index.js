@@ -258,9 +258,9 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Housing Buddy',
         description: 'Developed a Google Maps API powered web application that provides a platform for users to view and write reviews on user posted housing listings, streamlining the housing search process using Javascript and HTML/CSS. Implemented user review feature that reads and writes to the firebase database.',
-        link: "",
+        link: "https://hguo02.github.io/housing-buddy-HTN/",
         tech: "Google Maps API, Firebase, Javascript, CSS",
-        live: false,
+        live: true,
         repo: "https://devpost.com/software/housing-buddy",
         avail: true,
 
