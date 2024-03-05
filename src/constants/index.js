@@ -221,13 +221,13 @@ export const projects = [
     {
         iconUrl: video,
         theme: "btn-back-orange",
-        name: "ScrobbleSearch",
-        description: "Engineered a video content searching application that allows users to query for relevant video clips with simple text prompts using Flask, Google Cloud APIs, and leveraging Video Intelligence AI. Implemented visual and audio data analysis system to provide the closest matching video clip timestamps effectively eliminating the need to manually parse through video content.",
-        tech: "Flask, Google Cloud, ML, React, APIs, Pandas",
+        name: "ClipFindr",
+        description: "Engineered a video content searching application that allows users to query for relevant video clips with simple text prompts using Flask, Google Cloud APIs, and the OpenAI API while leveraging Video Intelligence AI. Implemented visual and audio data analysis system to provide the closest matching video clip timestamps effectively eliminating the need to manually parse through video content.",
+        tech: "OpenAI API, Google Cloud, ML, React, Flask",
         link: '',
         live: false,
-        repo: "",
-        avail: false,
+        repo: "https://github.com/zesponge/clipFindr",
+        avail: true,
 
     },
     {
@@ -235,7 +235,7 @@ export const projects = [
         theme: "btn-back-pink",
         name: "SummarAIzer",
         description: "Built a Full-Stack application and Google Chrome extension that leverages natural language processing to summarize video content using Flask, Python, React, and MongoDB. Designed and implemented a Flask REST API that facilitates video content summarization using video transcripts extracted from audio data and a Hugging Face model.",
-        tech: "OpenAI API, ML, React, Node.js, Express, MongoDB",
+        tech: "Hugging Face Model, REST APIs, ML, React, Node.js, Express, MongoDB",
         link: '',
         live: false,
         repo: "https://github.com/zesponge/summarAIzer",
