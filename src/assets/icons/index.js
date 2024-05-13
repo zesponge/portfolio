@@ -39,8 +39,14 @@ import ML from './ML.png'
 import video from './video.png'
 import pandas from './pandas.png'
 import flask from './flask.png'
+import django from './django.png'
+import aws from './aws.png'
+import prompt from './openai.svg'
 
 export {
+    django,
+    aws,
+    prompt,
     video,
     dash,
     money,

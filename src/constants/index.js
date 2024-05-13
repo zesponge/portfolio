@@ -1,4 +1,4 @@
-import {LAVA, mdt, rogers,eon } from "../assets/images";
+import {LAVA, mdt, rogers,eon, consalt } from "../assets/images";
 import {
     contact,
     css,
@@ -30,15 +30,13 @@ import {
     ML,
     video,
     flask,
-    pandas
+    pandas,
+    django,
+    aws,
+    prompt,
 } from "../assets/icons";
 
 export const skills = [
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
     {
         imageUrl: java,
         name: "Java",
@@ -70,6 +68,11 @@ export const skills = [
         type: "Frontend",
     },
     {
+        imageUrl: django,
+        name: "Django",
+        type: "Backend",
+    },
+    {
         imageUrl: nodejs,
         name: "Node.js",
         type: "Backend",
@@ -93,6 +96,11 @@ export const skills = [
         imageUrl: post,
         name: "Postgre SQL",
         type: "Database",
+    },
+    {
+        imageUrl: aws,
+        name: "AWS",
+        type: "Backend",
     },
     {
         imageUrl: googleCloud,
@@ -143,10 +151,27 @@ export const skills = [
         imageUrl: pandas,
         name: "Pandas",
         type: "Data Analysis",
+    },
+    {
+        imageUrl: prompt,   
+        name: "OpenAI API",
+        type: "API",
     }
 ];
 
 export const experiences = [
+    {
+        title: "Full Stack Engineer",
+        company_name: "ConSalt",
+        icon: consalt,
+        iconBg: "#7087b5",
+        date: "May 2024 - Aug 2024",
+        points: [
+            "Engineered a Django and React B2B user-based application serving up to 5000 users to increase operational efficiency by 30% through data-driven resource allocation and route optimization using LLMs, like GPT.",
+            "Developed a chatbot and SMS notification system to enhance user engagement through dynamic OpenAI-generated responses, leveraging websockets for instant messaging and Twilio for SMS delivery."
+        ],
+        tech: "Django, React, AWS, OpenAI API, SQL",
+    },
     {
         title: "Full Stack Engineer",
         company_name: "Eon Media Corp",

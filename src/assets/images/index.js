@@ -9,6 +9,7 @@ import head from "./head.jpg"
 import full from "./full.jpg"
 import linkedin from "./linkedin.png"
 import github from "./github.png"
+import consalt from "./consalt.png"
 
 export{
     eon,
@@ -21,5 +22,6 @@ export{
     head,
     full,
     github,
-    linkedin
+    linkedin,
+    consalt
 }

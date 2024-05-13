@@ -8,6 +8,4 @@ npm run deploy
 to run: 
 
 npm i
-npm run vite?
-
-does this redeploy?
+npm run dev
