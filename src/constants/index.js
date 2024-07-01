@@ -167,8 +167,9 @@ export const experiences = [
         iconBg: "#7087b5",
         date: "May 2024 - Aug 2024",
         points: [
-            "Engineered a Django and React B2B user-based application serving up to 5000 users to increase operational efficiency by 30% through data-driven resource allocation and route optimization using LLMs, like GPT.",
-            "Developed a chatbot and SMS notification system to enhance user engagement through dynamic OpenAI-generated responses, leveraging websockets for instant messaging and Twilio for SMS delivery."
+            "Developed a Django and React B2B application serving up to 5000 users to increase snow removal operational efficiency by 25% through data-driven resource allocation and route optimization using LLMs.",
+            "Streamlined end-to-end data integration by building REST API endpoints and designing database architecture for improved communication between various modularized Django and Python applications.",
+            "Implemented a SMS notification system and chatbot to enhance real-time communication using WebSockets."
         ],
         tech: "Django, React, AWS, OpenAI API, SQL",
     },
@@ -179,8 +180,8 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "Sept 2023 - Oct 2023",
         points: [
-            "Developed an operational e-commerce storefront, featuring robust payment processing and order management functionality using React, TypeScript, MongoDB, and the Stripe API.",
-            "Designed and built API endpoints and database architecture to facilitate end-to-end communication."
+            "Developed a digital media archive and e-commerce storefront, featuring robust payment processing and order management functionality using React, TypeScript, MongoDB, and the Stripe API.",
+            "Facilitated integration of inventory management and payment process systems by building backend functionalities."
         ],
         tech: "React, Typescript, MongoDB, Node.js",
     },
@@ -191,9 +192,8 @@ export const experiences = [
         iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
-            "Created a Google Cloud powered portal display that displays data, enables configuration edits, and allows for equipment management of oil fracking equipment, optimizing fleet management by 30%, using Java and React.",
-            "Implemented a Java backend service to process and visualize real-time mining sensor data queried from the cloud PostgreSQL database.",
-            "Leveraged microservice architecture to implement an oil fracking sensor alert text message notification system."
+            "Created a Google Cloud portal display that displays sensor data, enables configuration edits, and allows for equipment management of oil fracking equipment, optimizing fleet management by 20%, using Java and React.",
+            "Leveraged microservice architecture to implement Java backend services that process real-time mining sensor data queried from the cloud PostgreSQL database as well as an oil fracking alert text message notification system.",
         ],
         tech: "Java, React, Goolgle Cloud, PostgreSQL",
     },
@@ -204,9 +204,8 @@ export const experiences = [
         iconBg: "#ffcccb",
         date: "Jan 2022 - Apr 2022",
         points: [
-            "Spearheaded the design and development of a React-based interface to remotely operate a 5G benchmarking tool and display resulting data, improving the benchmark turnaround time by 25%.",
+            "Spearheaded the design and development of a React-based interface to operate a 5G benchmarking tool and visualize resulting data, improving the benchmark turnaround time by 25%.",
             "Implemented JavaScript functions that facilitate customizable REST API calls to handle benchmarking in a wide variety of configurations.",
-            "Built versatile and reusable React components to digest and visualize test result data using Recharts.",
         ],
         tech: "React, Javascript, MaterialUI, APIs",
     },
