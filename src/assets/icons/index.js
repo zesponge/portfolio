@@ -46,6 +46,8 @@ import fastapi from './fastapi.svg'
 import firebase from './firebase.svg'
 import docker from './docker.svg'
 import vercel from './vercel.svg'
+import travel from './travel.png'
+import accountabuddy from './accountabuddy.png'
 
 export {
     django,
@@ -95,5 +97,7 @@ export {
     game2,
     ML,
     flask,
-    pandas
+    pandas,
+    travel,
+    accountabuddy
 }

@@ -38,7 +38,9 @@ import {
     firebase,
     nextjs,
     docker,
-    vercel
+    vercel,
+    travel,
+    accountabuddy
 } from "../assets/icons";
 
 export const skills = [
@@ -272,6 +274,18 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: travel,
+        theme: "btn-back-green",
+        name: "Travel Buddy",
+        description: "Built Jamjos, a group travel planner where groups of friends create trips by destination, invite members via email, set budgets and contributions, and collaboratively curate places (transport, stays, restaurants, activities) using an interactive like/neutral/dislike voting system with real-time tallies. Integrated Google Maps/Places search with persistent pins and rich place details, in-app chat for coordination, and email/password authentication across MVVM-backed screens for a responsive, reliable UX.",
+        tech: "Android (Kotlin), Firebase Auth & Firestore, Google Maps & Places APIs",
+        link: '',
+        live: false,
+        repo: "https://www.youtube.com/watch?v=-LpfDN9k65U",
+        avail: true,
+
+    },
+    {
         iconUrl: video,
         theme: "btn-back-orange",
         name: "ClipFindr",
@@ -296,15 +310,16 @@ export const projects = [
 
     },
     {
-        iconUrl: game2,
-        theme: 'btn-back-green',
-        name: 'Straights',
-        description: 'Developed a C++ program that simulates the card game Straights. The game can be played against a computer or human player. The game is played over multiple rounds, and the goal of the game is to have the highest score at the end of the game.',
+        iconUrl: accountabuddy,
+        theme: "btn-back-black",
+        name: "Accountabuddy",
+        description: "Built AccountaBuddy, an Android (Kotlin) app where friends form accountability groups, set shared goals, and log daily activity. The app tracks both individual streaks and a collective group streak to keep everyone on pace, with simple check-ins and clear progress views, secured by Firebase Auth and backed by Firestore for group, log, and streak data.",
+        tech: "Android (Kotlin), Firebase Auth & Firestore",
         link: '',
-        tech: "C++, Object Oriented Programming",
         live: false,
         repo: "",
         avail: false,
+
     },
     {
         iconUrl: house,
@@ -341,6 +356,17 @@ export const projects = [
         repo: "https://devpost.com/software/timeismoney-htn",
         avail: true,
 
+    },
+    {
+        iconUrl: game2,
+        theme: 'btn-back-green',
+        name: 'Straights',
+        description: 'Developed a C++ program that simulates the card game Straights. The game can be played against a computer or human player. The game is played over multiple rounds, and the goal of the game is to have the highest score at the end of the game.',
+        link: '',
+        tech: "C++, Object Oriented Programming",
+        live: false,
+        repo: "",
+        avail: false,
     },
     {
         iconUrl: dash,
