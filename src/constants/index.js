@@ -34,6 +34,11 @@ import {
     django,
     aws,
     prompt,
+    fastapi,
+    firebase,
+    nextjs,
+    docker,
+    vercel
 } from "../assets/icons";
 
 export const skills = [
@@ -43,8 +48,28 @@ export const skills = [
         type: "Backend",
     },
     {
+        imageUrl: docker,
+        name: "Docker",
+        type: "DevOps",
+    },
+    {
+        imageUrl: vercel,
+        name: "Vercel",
+        type: "DevOps",
+    },
+    {
         imageUrl: c,
         name: "C",
+        type: "Backend",
+    },
+    {
+        imageUrl: fastapi,
+        name: "FastAPI",
+        type: "Backend",
+    },
+    {
+        imageUrl: firebase,
+        name: "Firebase",
         type: "Backend",
     },
     {
@@ -60,6 +85,16 @@ export const skills = [
     {
         imageUrl: typescript,
         name: "TypeScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: nextjs,
+        name: "Next.js",
         type: "Frontend",
     },
     {

@@ -42,11 +42,19 @@ import flask from './flask.png'
 import django from './django.png'
 import aws from './aws.png'
 import prompt from './openai.svg'
+import fastapi from './fastapi.svg'
+import firebase from './firebase.svg'
+import docker from './docker.svg'
+import vercel from './vercel.svg'
 
 export {
     django,
+    docker,
+    firebase,
+    vercel,
     aws,
     prompt,
+    fastapi,
     video,
     dash,
     money,
