@@ -165,13 +165,13 @@ export const experiences = [
         company_name: "ConSalt",
         icon: consalt,
         iconBg: "#7087b5",
-        date: "May 2024 - Aug 2024",
+        date: "May 2024 - Sept 2025",
         points: [
-            "Developed a Django and React B2B application serving up to 5000 users to increase snow removal operational efficiency by 25% through data-driven resource allocation and route optimization using LLMs.",
+            "Developed a full-stack snow removal resource allocation and operations management tool, boosting operational efficiency and enabling client resource organization with Django, React, and PostgreSQL.",
             "Streamlined end-to-end data integration by building REST API endpoints and designing database architecture for improved communication between various modularized Django and Python applications.",
-            "Implemented a SMS notification system and chatbot to enhance real-time communication using WebSockets."
+            "Deployed web applications on AWS EC2/RDS with Docker, ensuring scalable infrastructure and automated, seamless deployments with CI/CD best practices."
         ],
-        tech: "Django, React, AWS, OpenAI API, SQL",
+        tech: "Django, React, AWS, PostgreSQL, Vercel, Docker",
     },
     {
         title: "Full Stack Engineer",
@@ -180,8 +180,7 @@ export const experiences = [
         iconBg: "#accbe1",
         date: "Sept 2023 - Oct 2023",
         points: [
-            "Developed a digital media archive and e-commerce storefront, featuring robust payment processing and order management functionality using React, TypeScript, MongoDB, and the Stripe API.",
-            "Facilitated integration of inventory management and payment process systems by building backend functionalities."
+            "Built a digital media archive and e-commerce storefront, driving seamless order fulfillment and payment processing with the Stripe API, React, TypeScript, and MongoDB.",
         ],
         tech: "React, Typescript, MongoDB, Node.js",
     },
@@ -192,8 +191,8 @@ export const experiences = [
         iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
-            "Created a Google Cloud portal display that displays sensor data, enables configuration edits, and allows for equipment management of oil fracking equipment, optimizing fleet management by 20%, using Java and React.",
-            "Leveraged microservice architecture to implement Java backend services that process real-time mining sensor data queried from the cloud PostgreSQL database as well as an oil fracking alert text message notification system.",
+            "Developed a Google Cloud portal to visualize real-time oil fracking sensor data and manage equipment configurations, optimizing fleet operations by 20% using Java and React.",
+            "Implemented a microservice-based Java backend to process live sensor data from a cloud PostgreSQL database and deliver automated text alerts, improving field incident response times by 25%.",
         ],
         tech: "Java, React, Goolgle Cloud, PostgreSQL",
     },
@@ -204,8 +203,8 @@ export const experiences = [
         iconBg: "#ffcccb",
         date: "Jan 2022 - Apr 2022",
         points: [
-            "Spearheaded the design and development of a React-based interface to operate a 5G benchmarking tool and visualize resulting data, improving the benchmark turnaround time by 25%.",
-            "Implemented JavaScript functions that facilitate customizable REST API calls to handle benchmarking in a wide variety of configurations.",
+            "Spearheaded the design and development of a React UI for a 5G internet assessment tool, cutting execution turnaround time by 25% by enabling live data visualization and streamlined test queuing.",
+            "Programmed reusable JavaScript modules to support customizable REST API calls, improving test coverage across diverse benchmarking configurations.",
         ],
         tech: "React, Javascript, MaterialUI, APIs",
     },
@@ -216,7 +215,7 @@ export const experiences = [
         iconBg: "#ffdcd1",
         date: "May 2021 - Aug 2021",
         points: [
-            "Developed responsive web pages to display real-time data read in from external IoT devices and control loading dock door systems using HTML, CSS, and JavaScript.",
+            "Developed real-time IoT dashboards and loading door controls, enhancing monitoring and operational oversight.",
             "Designed and wrote BASIC scripts to pipeline data from LAVA proprietary IoT devices to a web interface.",
         ],
         tech: "Javascript, HTML, CSS, BASIC",
@@ -246,7 +245,7 @@ export const projects = [
         iconUrl: video,
         theme: "btn-back-orange",
         name: "ClipFindr",
-        description: "Engineered a video content searching application that allows users to query for relevant video clips with simple text prompts using Flask, Google Cloud APIs, and the OpenAI API while leveraging Video Intelligence AI. Implemented visual and audio data analysis system to provide the closest matching video clip timestamps effectively eliminating the need to manually parse through video content.",
+        description: "Engineered a Flask, GCP, and OpenAI video search application that enables users to retrieve relevant clips with simple text prompts by leveraging Video Intelligence AI for semantic video analysis. Implemented a visual and audio data analysis system to provide the closest matching video clip timestamps, eliminating the need to manually parse through video content.",
         tech: "OpenAI API, Google Cloud, ML, React, Flask",
         link: '',
         live: false,
@@ -258,7 +257,7 @@ export const projects = [
         iconUrl: ML,
         theme: "btn-back-pink",
         name: "SummarAIzer",
-        description: "Built a Full-Stack application and Google Chrome extension that leverages natural language processing to summarize video content using Flask, Python, React, and MongoDB. Designed and implemented a Flask REST API that facilitates video content summarization using video transcripts extracted from audio data and a Hugging Face model.",
+        description: "Built a full-stack video summarization app and Chrome extension using Flask, React, and MongoDB, cutting video review time by 30% with NLP-powered summaries. Designed a Flask REST API integrating a Hugging Face machine learning model to automate video transcript generation and summarization from audio data.",
         tech: "Hugging Face Model, REST APIs, ML, React, Node.js, Express, MongoDB",
         link: '',
         live: false,
@@ -281,7 +280,7 @@ export const projects = [
         iconUrl: house,
         theme: 'btn-back-blue',
         name: 'Housing Buddy',
-        description: 'Developed a Google Maps API powered web application that provides a platform for users to view and write reviews on user posted housing listings, streamlining the housing search process using Javascript and HTML/CSS. Implemented user review feature that reads and writes to the firebase database.',
+        description: 'Built a Google Maps API based web application for viewing and reviewing user-posted student housing listings, improving housing search efficiency using JavaScript, HTML, and CSS.',
         link: "https://hguo02.github.io/housing-buddy-HTN/",
         tech: "Google Maps API, Firebase, Javascript, CSS",
         live: true,

@@ -28,7 +28,7 @@ const Experience = () => {
             </div>
           </div>
             <p>
-              I'm a Computer Science student at the University of Waterloo. I've worked with all sorts of companies, developing my skills and collaborating with others. Here's the rundown:
+              I'm a Computer Science graduate from the University of Waterloo. I've worked with all sorts of companies, developing my skills and collaborating with others. Here's the rundown:
             </p>
           </div>
 
