@@ -48,6 +48,7 @@ import docker from './docker.svg'
 import vercel from './vercel.svg'
 import travel from './travel.png'
 import accountabuddy from './accountabuddy.png'
+import kotlin from './kotlin.svg'
 
 export {
     django,
@@ -99,5 +100,6 @@ export {
     flask,
     pandas,
     travel,
-    accountabuddy
+    accountabuddy,
+    kotlin
 }

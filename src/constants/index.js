@@ -40,7 +40,8 @@ import {
     docker,
     vercel,
     travel,
-    accountabuddy
+    accountabuddy,
+    kotlin
 } from "../assets/icons";
 
 export const skills = [
@@ -48,6 +49,11 @@ export const skills = [
         imageUrl: java,
         name: "Java",
         type: "Backend",
+    },
+    {
+        imageUrl: kotlin,
+        name: "Kotlin",
+        type: "Frontend",
     },
     {
         imageUrl: docker,

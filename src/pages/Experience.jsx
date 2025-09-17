@@ -12,7 +12,7 @@ const Experience = () => {
   // 1) Groups exactly as you want them shown in the UI
   const groupDefs = {
     'Frontend': [
-      'React', 'Next.js', 'JavaScript', 'TypeScript', 'HTML/CSS', 'Tailwind', 'Material UI', 'Shadcn'
+      'React', 'Next.js', 'JavaScript', 'TypeScript', 'Kotlin', 'HTML/CSS', 'Tailwind', 'Material UI', 'Shadcn'
     ],
     'Backend & Databases': [
       'Python', 'Django', 'Node.js', 'FastAPI', 'Flask', 'PostgreSQL', 'MongoDB', 'SQL', 'Firebase', 'Java', 'C++', 'C'
