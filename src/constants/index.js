@@ -113,11 +113,6 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: express,
-        name: "Express",
-        type: "Backend",
-    },
-    {
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
