@@ -77,23 +77,6 @@ const Experience = () => {
         <img src={head} alt="Profile" className='rounded-full h-1/2 w-2/5' />
       </div>
 
-      <div className='py-5 flex flex-col'>
-        <h3 className='subhead-text'>My Skills</h3>
-
-        <div className='mt-12'>
-          {Object.entries(skillGroups).map(([title, names]) => (
-            <div className='mb-10' key={title}>
-              <h4 className='text-xl font-semibold mb-4'>{title}</h4>
-              <div className='mt-4 flex flex-wrap gap-6'>
-                {names.map((name) => (
-                  <SkillCard key={name} skill={skillByName.get(name)} />
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-
       <div className='py-5'>
         <h3 className='subhead-text'>Experience</h3>
         <div className='mt-6 flex'>
@@ -150,6 +133,23 @@ const Experience = () => {
               </VerticalTimelineElement>
             ))}
           </VerticalTimeline>
+        </div>
+      </div>
+
+      <div className='py-5 flex flex-col'>
+        <h3 className='subhead-text'>My Skills</h3>
+
+        <div className='mt-12'>
+          {Object.entries(skillGroups).map(([title, names]) => (
+            <div className='mb-10' key={title}>
+              <h4 className='text-xl font-semibold mb-4'>{title}</h4>
+              <div className='mt-4 flex flex-wrap gap-6'>
+                {names.map((name) => (
+                  <SkillCard key={name} skill={skillByName.get(name)} />
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
 
