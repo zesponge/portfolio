@@ -1,4 +1,4 @@
-import {LAVA, mdt, rogers,eon, consalt } from "../assets/images";
+import { mdt, rogers, eon, consalt } from "../assets/images";
 import {
     contact,
     css,
@@ -132,12 +132,13 @@ export const skills = [
     },
     {
         imageUrl: post,
-        name: "Postgre SQL",
+        name: "PostgreSQL",
         type: "Database",
     },
     {
         imageUrl: aws,
         name: "AWS",
+        details: "EC2, S3, RDS, ALB",
         type: "Backend",
     },
     {
@@ -147,7 +148,7 @@ export const skills = [
     },
     {
         imageUrl: mui,
-        name: "MaterialUI",
+        name: "Material UI",
         type: "Frontend",
     },
     {
@@ -191,6 +192,34 @@ export const skills = [
         type: "Data Analysis",
     },
     {
+        name: "LLMs",
+        type: "AI",
+    },
+    {
+        name: "Jest",
+        type: "Testing",
+    },
+    {
+        name: "Azure Container Apps",
+        type: "DevOps",
+    },
+    {
+        name: "Azure SQL",
+        type: "Database",
+    },
+    {
+        name: "GitHub Actions",
+        type: "DevOps",
+    },
+    {
+        name: "Jira",
+        type: "Dev Tools",
+    },
+    {
+        name: "PowerShell",
+        type: "Dev Tools",
+    },
+    {
         imageUrl: prompt,   
         name: "OpenAI API",
         type: "API",
@@ -199,64 +228,70 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "Full Stack Engineer",
-        company_name: "ConSalt",
+        title: "Software Developer",
+        company_name: "Facility Care Solutions Providers",
+        location: "Toronto, ON",
+        initials: "FC",
+        iconBg: "#bfdbfe",
+        date: "Oct 2025 - Present",
+        points: [
+            "Owned end-to-end engineering of Facilitate, a production winter-operations platform (Django, React, PostgreSQL) supporting $5M+ in snow removal operations across planning, dispatch, client requests, and communications.",
+            "Managed staging and production infrastructure on AWS, deploying a Dockerized Django backend to EC2 with PostgreSQL on RDS and a React frontend to S3/CloudFront, with automated releases through GitHub Actions.",
+            "Built an Azure SQL reporting platform with nightly Python ELT jobs on Azure Container Apps, incrementally ingesting QuickBooks, Facilitate, and BambooHR data to support finance and operations reporting and analysis.",
+        ],
+        tech: "Django, React, PostgreSQL, Docker, AWS, GitHub Actions, Python, Azure SQL, Azure Container Apps",
+    },
+    {
+        title: "Software Engineer",
+        company_name: "ConSalt (Consultant to Facility Care)",
+        location: "Vancouver, BC",
         icon: consalt,
         iconBg: "#7087b5",
         date: "May 2024 - Sept 2025",
         points: [
-            "Developed a full-stack snow removal resource allocation and operations management tool, boosting operational efficiency and enabling client resource organization with Django, React, and PostgreSQL.",
-            "Streamlined end-to-end data integration by building REST API endpoints and designing database architecture for improved communication between various modularized Django and Python applications.",
-            "Deployed web applications on AWS EC2/RDS with Docker, ensuring scalable infrastructure and automated, seamless deployments with CI/CD best practices."
+            "Developed core resource-allocation workflows for a Django, React, and PostgreSQL operations platform, enabling planners to coordinate 80+ vehicles, 200+ staff, and 100+ sites across multiple snow-removal service types.",
+            "Implemented real-time dispatch workflows that send operational instructions to field staff and track confirmations and responses, giving planning and operations teams live visibility into storm execution.",
+            "Shipped a client request portal that allows customers to submit and track service requests with photo evidence, using presigned S3 URLs for direct file uploads.",
         ],
-        tech: "Django, React, AWS, PostgreSQL, Vercel, Docker",
+        tech: "Django, React, PostgreSQL, Amazon S3",
     },
     {
         title: "Full Stack Engineer",
-        company_name: "Eon Media Corp",
+        company_name: "Eon Media",
+        location: "Toronto, ON",
         icon: eon,
         iconBg: "#accbe1",
         date: "Sept 2023 - Oct 2023",
         points: [
-            "Built a digital media archive and e-commerce storefront, driving seamless order fulfillment and payment processing with the Stripe API, React, TypeScript, and MongoDB.",
+            "Built a digital media archive and e-commerce storefront using React, TypeScript, MongoDB, and Stripe, enabling customers to browse media, place orders, and complete secure online payments.",
         ],
-        tech: "React, Typescript, MongoDB, Node.js",
+        tech: "React, TypeScript, MongoDB, Stripe",
     },
     {
         title: "Cloud Developer",
         company_name: "Mobile Data Technologies",
+        location: "Edmonton, AB",
         icon: mdt,
         iconBg: "#ffffff",
         date: "Sept 2022 - Dec 2022",
         points: [
-            "Developed a Google Cloud portal to visualize real-time oil fracking sensor data and manage equipment configurations, optimizing fleet operations by 20% using Java and React.",
-            "Implemented a microservice-based Java backend to process live sensor data from a cloud PostgreSQL database and deliver automated text alerts, improving field incident response times by 25%.",
+            "Engineered a fleet management platform using Java, React, and Google Cloud to display oil fracking equipment and sensor data, enabling users to monitor and configure assets while improving operational efficiency by 20%.",
+            "Implemented Java microservices that processed live sensor data from a cloud-hosted PostgreSQL database and triggered automated SMS alerts based on equipment conditions, reducing field incident response times.",
         ],
-        tech: "Java, React, Goolgle Cloud, PostgreSQL",
+        tech: "Java, React, Google Cloud, PostgreSQL",
     },
     {
         title: "Developer",
-        company_name: "Rogers Communications Inc. - University of Waterloo",
+        company_name: "Rogers Communications - University of Waterloo",
+        location: "Waterloo, ON",
         icon: rogers,
         iconBg: "#ffcccb",
         date: "Jan 2022 - Apr 2022",
         points: [
-            "Spearheaded the design and development of a React UI for a 5G internet assessment tool, cutting execution turnaround time by 25% by enabling live data visualization and streamlined test queuing.",
-            "Programmed reusable JavaScript modules to support customizable REST API calls, improving test coverage across diverse benchmarking configurations.",
+            "Developed a React-based testing tool for a 5G internet assessment platform, enabling users to configure environments, launch external assessments, ingest results, and visualize performance data, cutting test turnaround time by 25%.",
+            "Programmed reusable JavaScript modules for configurable REST API requests, enabling flexible test execution across varied benchmarking environments and configurations.",
         ],
-        tech: "React, Javascript, MaterialUI, APIs",
-    },
-    {
-        title: "Webpage Developer",
-        company_name: "LAVA Computers MFG Inc.",
-        icon: LAVA,
-        iconBg: "#ffdcd1",
-        date: "May 2021 - Aug 2021",
-        points: [
-            "Developed real-time IoT dashboards and loading door controls, enhancing monitoring and operational oversight.",
-            "Designed and wrote BASIC scripts to pipeline data from LAVA proprietary IoT devices to a web interface.",
-        ],
-        tech: "Javascript, HTML, CSS, BASIC",
+        tech: "React, JavaScript, REST APIs",
     },
 ];
 
